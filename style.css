@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+}
+
+.hero-section{
+    background-image: url(images/Wasif\ Photography\ 01728817495\ \ \(115\).JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    height: 700px; 
+    justify-content: center;
+    /* align-items: center; */
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    display: inline-flex;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    
+}
