@@ -1,28 +1,133 @@
+@import url(utility.css);
+
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-something:antialiased;
 }
 
-.hero-section{
-    background-image: url(images/Wasif\ Photography\ 01728817495\ \ \(115\).JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* display: flex; */
-    height: 700px; 
-    justify-content: center;
-    /* align-items: center; */
+body{
+    font-family: syne, sans-serif;
     
 }
 
-.nav{
-    display: flex;
-    justify-content: center;
+header{
+    background: #fcf6f6;
 }
 
-ul li{
-    display: inline-flex;
-    font-size: 20px;
-    padding: 20px;
+.container{
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color: rgb(46, 53, 53);
     text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: all .3s ease;
     
+    
+
+}
+
+header nav .left a:hover{
+    color: blueviolet;
+}
+
+header nav{
+    padding: 20px 0;
+}
+
+header nav .branding{
+    margin-right: 50px;
+}
+
+header nav .branding img{
+    height: 50px;
+}
+
+
+.hero{
+    background: #fcf6f6;
+    padding: 100px 200px;
+    
+}
+
+.hero .left img{
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.hero .right h1{
+    font-size: 52px;
+}
+
+.hero .right h1 span{
+    color: blueviolet;
+}
+
+.hero .right h3{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 20px 0;
+
+}
+
+.hero .right p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.section-heading{
+    color: blueviolet;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 16px;
+}
+
+.section-heading + p{
+    color: #161414;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Services{
+    background: rgb(210, 219, 233);
+    padding: 80px 200px;
+}
+
+section .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+}
+
+section .card-wrapper .card{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: rgb(224, 17, 190);
+    transition: all .3s ease;
+}
+section .card-wrapper .card:hover{
+    background: #b7ecec;
+}
+
+section .card-wrapper .card h3{
+    padding-top: 20px;
+}
+
+section .card-wrapper .card p{
+    padding-top: 20px;
+}
+
+section .card-wrapper .card img{
+    height: 50px;
 }
