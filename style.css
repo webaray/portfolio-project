@@ -9,6 +9,9 @@
 
 body{
     font-family: syne, sans-serif;
+    max-width: 80%;
+    margin: 0 auto;
+    background: #fcf6f6;
     
 }
 
@@ -53,7 +56,7 @@ header nav .branding img{
 
 .hero{
     background: #fcf6f6;
-    padding: 100px 200px;
+    padding: 50px 0;
     
 }
 
@@ -97,8 +100,8 @@ header nav .branding img{
 }
 
 .Services{
-    background: rgb(210, 219, 233);
-    padding: 80px 200px;
+    /* background: rgb(210, 219, 233); */
+    padding: 80px 0;
 }
 
 section .card-wrapper{
@@ -130,4 +133,44 @@ section .card-wrapper .card p{
 
 section .card-wrapper .card img{
     height: 50px;
+}
+
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product-container .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    background: #b7ecec;
+    box-shadow: 10px 10px 10px rgb(170, 170, 170);
+    text-align: left;
+}
+.product-container .card button{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 1px solid blueviolet;
+    cursor: pointer;
+}
+.product-container .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-section{
+    text-align: center;
+    margin: 50px 50px;
+}
+.product-section h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.product-section p{
+    font-size: 18px;
+    margin-bottom: 30px;
 }
